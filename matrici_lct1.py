@@ -12,8 +12,8 @@ print("Suma elementelor de pe fiecare linie:",s)
 suma=[]
 coloana=[]
 for j in range(len(matrice[0])):
-    for rind in matrice:
-        coloana.append(rind[j])
+    for i in matrice:
+        coloana.append(i[j])
     suma.append(sum(coloana))
 print("Suma elementelor de pe fiecare coloana:",suma)
 
