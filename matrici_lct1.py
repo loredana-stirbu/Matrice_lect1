@@ -30,5 +30,4 @@ for i in range(len(matrice)):
         n=5
         if i+j==n-1:
             diagonala_secundara.append(matrice[i][j])
-            
 print("Diagonala secundara:",diagonala_secundara) 
